@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    		<class name="Radi_Assignment_TestCase.SuccessLogin"/>
+      	<class name="Radi_Assignment_TestCase.EmptyPassword"/>
+      	<class name="Radi_Assignment_TestCase.InvalidUserName"/>
+      	<class name="Radi_Assignment_TestCase.EmptyUsernamePassword"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

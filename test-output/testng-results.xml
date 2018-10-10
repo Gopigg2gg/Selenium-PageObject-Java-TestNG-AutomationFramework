@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71416" started-at="2018-09-30T06:16:55Z" finished-at="2018-09-30T06:18:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="71416" started-at="2018-09-30T06:16:55Z" finished-at="2018-09-30T06:18:06Z">
+      <class name="Radi_Assignment_TestCase.EmptyPassword">
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:Radi_Assignment_TestCase.EmptyPassword@42e26948]" name="setupTestData" is-config="true" duration-ms="782" started-at="2018-09-30T06:16:55Z" finished-at="2018-09-30T06:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:Radi_Assignment_TestCase.EmptyUsernamePassword@343f4d3d]" name="setupTestData" is-config="true" duration-ms="49" started-at="2018-09-30T06:16:56Z" finished-at="2018-09-30T06:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:Radi_Assignment_TestCase.InvalidUserName@57baeedf]" name="setupTestData" is-config="true" duration-ms="53" started-at="2018-09-30T06:16:56Z" finished-at="2018-09-30T06:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:Radi_Assignment_TestCase.SuccessLogin@1794d431]" name="setupTestData" is-config="true" duration-ms="53" started-at="2018-09-30T06:16:56Z" finished-at="2018-09-30T06:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Radi_Assignment_TestCase.EmptyPassword@42e26948]" name="setup" is-config="true" duration-ms="1458" started-at="2018-09-30T06:17:25Z" description="Class Level Setup!" finished-at="2018-09-30T06:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmptyPasswordField_ValidUsername()[pri:0, instance:Radi_Assignment_TestCase.EmptyPassword@42e26948]" name="EmptyPasswordField_ValidUsername" duration-ms="11247" started-at="2018-09-30T06:17:26Z" description="Valid username and blank in the passwordfield" finished-at="2018-09-30T06:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyPasswordField_ValidUsername -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Radi_Assignment_TestCase.EmptyPassword@42e26948]" name="teardown" is-config="true" duration-ms="0" started-at="2018-09-30T06:17:38Z" description="Class Level Teardown!" finished-at="2018-09-30T06:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Radi_Assignment_TestCase.EmptyPassword -->
+      <class name="Radi_Assignment_TestCase.InvalidUserName">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Radi_Assignment_TestCase.InvalidUserName@57baeedf]" name="setup" is-config="true" duration-ms="1283" started-at="2018-09-30T06:17:38Z" description="Class Level Setup!" finished-at="2018-09-30T06:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvalidTextUsernameField()[pri:0, instance:Radi_Assignment_TestCase.InvalidUserName@57baeedf]" name="InvalidTextUsernameField" duration-ms="15599" started-at="2018-09-30T06:17:39Z" description="Verify if user enter invalid text in the username field" finished-at="2018-09-30T06:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidTextUsernameField -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Radi_Assignment_TestCase.InvalidUserName@57baeedf]" name="teardown" is-config="true" duration-ms="161" started-at="2018-09-30T06:17:54Z" description="Class Level Teardown!" finished-at="2018-09-30T06:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Radi_Assignment_TestCase.InvalidUserName -->
+      <class name="Radi_Assignment_TestCase.SuccessLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Radi_Assignment_TestCase.SuccessLogin@1794d431]" name="setup" is-config="true" duration-ms="2338" started-at="2018-09-30T06:16:56Z" description="Class Level Setup!" finished-at="2018-09-30T06:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidLoginTest_ValidUserNameValidPassword()[pri:0, instance:Radi_Assignment_TestCase.SuccessLogin@1794d431]" name="ValidLoginTest_ValidUserNameValidPassword" duration-ms="26629" started-at="2018-09-30T06:16:58Z" description="Enter valid Username and Password and verify success full login" finished-at="2018-09-30T06:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest_ValidUserNameValidPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Radi_Assignment_TestCase.SuccessLogin@1794d431]" name="teardown" is-config="true" duration-ms="45" started-at="2018-09-30T06:17:25Z" description="Class Level Teardown!" finished-at="2018-09-30T06:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Radi_Assignment_TestCase.SuccessLogin -->
+      <class name="Radi_Assignment_TestCase.EmptyUsernamePassword">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Radi_Assignment_TestCase.EmptyUsernamePassword@343f4d3d]" name="setup" is-config="true" duration-ms="1030" started-at="2018-09-30T06:17:55Z" description="Class Level Setup!" finished-at="2018-09-30T06:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmptyField()[pri:0, instance:Radi_Assignment_TestCase.EmptyUsernamePassword@343f4d3d]" name="EmptyField" duration-ms="10633" started-at="2018-09-30T06:17:56Z" finished-at="2018-09-30T06:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyField -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Radi_Assignment_TestCase.EmptyUsernamePassword@343f4d3d]" name="teardown" is-config="true" duration-ms="0" started-at="2018-09-30T06:18:06Z" description="Class Level Teardown!" finished-at="2018-09-30T06:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Radi_Assignment_TestCase.EmptyUsernamePassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
